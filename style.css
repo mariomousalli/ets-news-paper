@@ -1,0 +1,9 @@
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(163, 167, 166);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titles{
+    text-align: center;
+}
