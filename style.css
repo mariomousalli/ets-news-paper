@@ -1,9 +1,33 @@
 body{
+    margin: 0px;
+}
+.body{
     margin-left: 150px;
     margin-right: 150px;
-    background-color: rgb(163, 167, 166);
     font-family: Arial, Helvetica, sans-serif;
 }
 .titles{
     text-align: center;
+}
+.box{
+    border-radius: 25px;
+    background: #a7701f;
+    padding: 10px;
+    width: 500px;   
+    height: 150px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(17, 17, 17);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links{
+    margin-top: 25px;
+    font-size: 25px;
 }
