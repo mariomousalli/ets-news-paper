@@ -26,7 +26,6 @@ main{
 }
 .info{
     margin-left: 300px;
-    height: 1050px  ;
 }
 button {
     color: #ffffff;
@@ -60,4 +59,79 @@ footer{
     right: 0px;
     left: 0px;
     bottom: 0px;
+}
+.logo{
+    margin-left: 300px;
+    height: 70px;
+}
+.kids{
+    height: 350px; 
+    width: 1240px;
+    margin-left: 210px;
+}
+.grad{
+    height: 500px;
+    width: 1000px;
+}
+.bigb{
+    width: 200px;
+}
+.dwlehicon{
+    height: 100px;
+    margin-left: 750px;
+}
+.ib{
+    height: 100px;
+}
+.flw{
+    position: absolute;
+    bottom: 50px;
+}
+.p{
+    font-size: 21px;
+}
+@media (max-width: 450px){
+    .logo{
+        margin-left: 10px;
+        height: 50px;
+    }
+    .links{
+        margin-top: 25px;
+        font-size: 7px;
+        display: block;
+        justify-content: space-between;
+        margin-left: 70px;
+    }
+    .icons{
+        height: 10px;
+    }
+    .kids{
+        height: 120px; 
+        width: 350px;
+        margin-left: -50px;
+    }
+    .grad{
+        height: 100px;
+        width: 200px;
+        margin-left: -350px;
+    }
+    .p{
+        font-size: 10px;
+        margin-left: -350px;
+    }
+
+    .in-box{
+        padding: 5px;
+        background-color: rgba(128, 128, 128, 0.247);
+        text-align: center;
+        margin: 5px;
+        font-size: 5px;
+    }
+    .simple-box{
+        background-color: rgba(128, 128, 128, 0.24);
+        position: relative; 
+        left: 70px; 
+        bottom: 850px; 
+        width: 200px;
+    }
 }
