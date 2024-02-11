@@ -24,9 +24,7 @@ main{
     margin-left: 100px;
     margin-right: 100px;
 }
-.info{
-    margin-left: 300px;
-}
+
 button {
     color: #ffffff;
     background-color: #c8872d;
@@ -111,13 +109,13 @@ footer{
         margin-left: -50px;
     }
     .grad{
-        height: 100px;
-        width: 200px;
-        margin-left: -350px;
+        height: 200px;
+        width: 250px;
+        margin-left: -50px;
     }
     .p{
         font-size: 10px;
-        margin-left: -350px;
+        margin-left: -50px;
     }
 
     .in-box{
@@ -130,8 +128,28 @@ footer{
     .simple-box{
         background-color: rgba(128, 128, 128, 0.24);
         position: relative; 
-        left: 70px; 
-        bottom: 850px; 
-        width: 200px;
+        left: 210px; 
+        bottom: 420px; 
+        width: 100px;
+        font-size: 10px;
+    }
+    .bigb{
+        width: 100px;
+        font-size: 10px;
+    }
+    footer{
+        background-color: rgb(180, 122, 36);
+        padding: 10px;
+        position: absolute;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+    }
+    .ib{
+        height: 70px;
+    }
+    .dwlehicon{
+        height: 70px;
+        margin-left: 100px;
     }
 }
