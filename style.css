@@ -24,7 +24,9 @@ main{
     margin-left: 100px;
     margin-right: 100px;
 }
-
+.info{
+    margin-left: 210px;
+}
 button {
     color: #ffffff;
     background-color: #c8872d;
@@ -46,8 +48,8 @@ button:hover {
 .simple-box{
     background-color: rgba(128, 128, 128, 0.24);
     position: relative; 
-    left: 1070px; 
-    bottom: 850px; 
+    left: 1020px; 
+    bottom: 800px; 
     width: 200px;
 }
 footer{
@@ -98,13 +100,13 @@ footer{
         font-size: 7px;
         display: block;
         justify-content: space-between;
-        margin-left: 70px;
+        margin-left: 50px;
     }
     .icons{
         height: 10px;
     }
     .kids{
-        height: 120px; 
+        height: 150px; 
         width: 350px;
         margin-left: -50px;
     }
@@ -151,5 +153,8 @@ footer{
     .dwlehicon{
         height: 70px;
         margin-left: 100px;
+    }
+    .info{
+        margin-left: 0px;
     }
 }
