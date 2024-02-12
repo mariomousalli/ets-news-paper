@@ -130,9 +130,10 @@ footer{
     .simple-box{
         background-color: rgba(128, 128, 128, 0.24);    
         left: 65%; 
-        bottom: 340px; 
+        bottom: 350px; 
         width: 100px;
-        font-size: 10px;
+        height: 200px;
+        font-size: 7px;
     }
     .bigb{
         width: 100px;
