@@ -140,13 +140,7 @@ footer{
         text-align: center;
         margin: 5px;
     }
-    .simple-box{
-        background-color: rgba(128, 128, 128, 0.24);
-        width: 200px;
-        position: absolute;
-        top: 32%;
-        left:60%;
-    }
+
     footer{
         background-color: rgb(180, 122, 36);
         padding: 10px;
@@ -221,12 +215,11 @@ footer{
         font-size: 5px;
     }
     .simple-box{
-        background-color: rgba(128, 128, 128, 0.24);    
-        left: 68%; 
-        bottom: 100%; 
+        background-color: rgba(128, 128, 128, 0.24);
         width: 100px;
-        height: 200px;
-        font-size: 7px;
+        position: absolute;
+        top: 32%;
+        left:68%;
     }
     .bigb{
         width: 100px;
