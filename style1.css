@@ -185,99 +185,78 @@ footer{
     }
 }
 @media (max-width: 450px){
-    body{
-        margin: 0;
-        position: relative;
-    }
-    .nav{
-        display: flex;
-        background-color: rgb(26, 66, 138);
-        font-family: Arial, Helvetica, sans-serif;
+    .logo{
+        margin-left: 10%;
+        height: 50px;
     }
     .links{
-        margin-top: 1.5%;
-        font-size: 15px;
+        margin-top: 4.5%;
+        font-size: 7px;
         display: block;
         justify-content: space-between;
-        margin-left: 50%;
+        margin-left: 17%;
     }
-    a{
-        text-decoration: none;
-        color: #ffffff;
+    .icons{
+        height: 10px;
     }
-    .a{
-        text-decoration: none;
-        color: black;   
-        font-weight: bold;
+    .kids{
+        height: 150px; 
+        width: 350px;
+        margin-left: 1%;
     }
-    main{
-        height: auto;
-        width: auto;
-        margin-left: 15%;
-        margin-right: 15%;
+    .grad{
+        height: 200px;
+        width: 250px;
+        margin-left: 1%;
     }
-    .info{
-        position: relative;
+    .p{
+        font-size: 10px;
+        margin-left: 1%;
     }
-    button {
-        color: #ffffff;
-        background-color: #c8872d;
-        font-size: 19px;
-        border: 1px solid #2d63c8;
-        letter-spacing: 1px;
-        cursor: pointer;
-    }
-    button:hover {
-        color: #000000;
-        background-color: #e8aa54;
-    }
+
     .in-box{
         padding: 5px;
         background-color: rgba(128, 128, 128, 0.247);
         text-align: center;
         margin: 5px;
+        font-size: 5px;
     }
     .simple-box{
-        background-color: rgba(128, 128, 128, 0.24);
-        width: 200px;
-        position: absolute;
-        top: 35%;
-        left:60%;
+        background-color: rgba(128, 128, 128, 0.24);    
+        left: 65%; 
+        bottom: 350px; 
+        width: 100px;
+        height: 200px;
+        font-size: 7px;
+    }
+    .bigb{
+        width: 100px;
+        font-size: 10px;
+    }
+    button {
+        color: #ffffff;
+        background-color: #c8872d;
+        font-size: 15px;
+        border: 1px solid #2d63c8;
+        cursor: pointer;
+        width: 100px;
     }
     footer{
         background-color: rgb(180, 122, 36);
         padding: 10px;
-        right: 0px;
-        left: 0px;
-        bottom: 0px;
-    }
-    .logo{
-        margin-left: 70%;
-        height: 15px;
-    }
-    .kids{
-        height: 10%; 
-        width: 80%;
-    }
-    .grad{
-        height: 500px;
-        width: 60%;
-    }
-    .bigb{
-        width: 200px;
-    }
-    .dwlehicon{
-        height: 100px;
-        margin-left: 40%;
+        position: absolute;
+        right: 0%;
+        left: 0%;
+        bottom: 0%;
     }
     .ib{
-        height: 100px;
+        height: 70px;
     }
-    .flw{
-        position: absolute;
-        bottom: 50px;
+    .dwlehicon{
+        height: 70px;
+        margin-left: 22%;
     }
-    .p{
-        font-size: 21px;
+    .info{
+        margin-left: 0px;
     }
 }
