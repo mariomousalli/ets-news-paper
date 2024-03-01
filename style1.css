@@ -213,9 +213,8 @@ footer{
     .p{
         font-size: 10px;
     }
-
     .in-box{
-        padding: 5px;
+        padding: 3px;
         background-color: rgba(128, 128, 128, 0.247);
         text-align: center;
         margin: 5px;
