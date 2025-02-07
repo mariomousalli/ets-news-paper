@@ -1,0 +1,112 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a clean, readable font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Header Styles */
+header {
+  background-color: #0056b3; /* Blue background */
+  padding: 15px;
+}
+
+/* Navigation Bar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Logo */
+.logo {
+  height: 50px;
+}
+
+/* Navigation Links */
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.links img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.kids {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Simple Box Styling */
+.simple-box {
+  padding: 15px;
+  background: #eef;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Schedule Button */
+button {
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #003d82;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Footer Icons */
+footer img {
+  height: 30px;
+  margin: 10px;
+}
+
+footer a {
+  text-decoration: none;
+}
